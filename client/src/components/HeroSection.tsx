@@ -36,7 +36,7 @@ export default function HeroSection() {
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-description">
           I love thinking about big problems and how code might facilitate better 
-          understanding and offer solutions for communities.
+          understanding and offer solutions for communities, small businesses, and women-led initiatives.
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-4">

@@ -14,9 +14,9 @@ const projects = [
     image: project1
   },
   {
-    title: 'Neighborhood Engagement App',
-    category: 'Mobile Application',
-    description: 'Mobile tool connecting neighbors and facilitating local initiatives, event planning, and community building.',
+    title: 'Women-Led Business Network',
+    category: 'Community Platform',
+    description: 'Platform connecting women entrepreneurs, facilitating mentorship, resource sharing, and collaborative growth opportunities.',
     tags: ['React Native', 'Node.js', 'GraphQL'],
     image: project2
   },

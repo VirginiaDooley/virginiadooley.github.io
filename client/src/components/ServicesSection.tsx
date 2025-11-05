@@ -9,12 +9,12 @@ const services = [
   {
     icon: BarChart3,
     title: 'Data Visualization',
-    description: 'Creating clear, accessible visualizations that help communities understand complex civic data and issues.'
+    description: 'Creating clear, accessible visualizations that help communities and small businesses understand complex data and make informed decisions.'
   },
   {
     icon: Users,
     title: 'Community Platforms',
-    description: 'Developing digital spaces that facilitate meaningful dialogue and collaborative problem-solving.'
+    description: 'Developing digital spaces that facilitate meaningful dialogue, support women-led initiatives, and enable collaborative problem-solving.'
   }
 ];
 

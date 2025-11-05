@@ -20,8 +20,8 @@ export default function ContactSection() {
         </h2>
         
         <p className="text-muted-foreground text-base md:text-lg mb-12 leading-relaxed" data-testid="text-contact-description">
-          Working on civic tech or community engagement tools? I'd love to hear about your project. 
-          Open to new opportunities and available for meaningful work that strengthens communities.
+          Working on civic tech, small business tools, or women-led initiatives? I'd love to hear about your project. 
+          Open to new opportunities and available for meaningful work that strengthens communities and empowers entrepreneurs.
         </p>
 
         <Button

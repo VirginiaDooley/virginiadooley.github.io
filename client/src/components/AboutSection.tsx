@@ -35,17 +35,17 @@ export default function AboutSection() {
               <p data-testid="text-about-paragraph-1">
                 I love thinking about big problems and how code might facilitate better understanding 
                 and offer solutions. My work focuses on building tools that help communities engage 
-                meaningfully with civic issues and democratic processes.
+                meaningfully with civic issues, support small businesses in their growth, and amplify women-led initiatives.
               </p>
               <p data-testid="text-about-paragraph-2">
                 I enjoy supporting initiatives that help engage people in their communities and find 
-                common ground. At the moment, I'm focused on building civic participation tools and 
-                thinking about how we can maintain our focus in a chaotic world.
+                common ground. I'm particularly passionate about creating technology solutions that empower 
+                women entrepreneurs and help small businesses thrive in their communities.
               </p>
               <p data-testid="text-about-paragraph-3">
                 I'm open to new opportunities and available for project work. If you're working on 
-                something that makes communities stronger or democracy more accessible, I'd love to 
-                hear from you.
+                something that makes communities stronger, supports small business growth, or advances 
+                women-led initiatives, I'd love to hear from you.
               </p>
             </div>
 
