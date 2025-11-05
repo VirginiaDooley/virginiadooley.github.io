@@ -7,31 +7,31 @@ import project4 from '@assets/generated_images/Brand_identity_design_showcase_03
 
 const projects = [
   {
-    title: 'Analytics Dashboard',
-    category: 'Web Application',
-    description: 'A comprehensive analytics platform with real-time data visualization and reporting capabilities.',
-    tags: ['React', 'TypeScript', 'Tailwind'],
+    title: 'Community Participation Platform',
+    category: 'Civic Tech',
+    description: 'A comprehensive platform enabling local communities to engage with civic issues and track municipal decisions.',
+    tags: ['React', 'TypeScript', 'PostgreSQL'],
     image: project1
   },
   {
-    title: 'E-Commerce Mobile App',
-    category: 'Mobile Design',
-    description: 'Modern shopping experience with seamless checkout and personalized recommendations.',
-    tags: ['React Native', 'Node.js', 'MongoDB'],
+    title: 'Neighborhood Engagement App',
+    category: 'Mobile Application',
+    description: 'Mobile tool connecting neighbors and facilitating local initiatives, event planning, and community building.',
+    tags: ['React Native', 'Node.js', 'GraphQL'],
     image: project2
   },
   {
-    title: 'Creative Agency Site',
-    category: 'Web Design',
-    description: 'Bold, modern website showcasing creative work with stunning animations and interactions.',
-    tags: ['Next.js', 'Framer Motion', 'Sanity'],
+    title: 'Open Data Visualization Hub',
+    category: 'Data Platform',
+    description: 'Interactive visualizations making complex civic data accessible and understandable for all community members.',
+    tags: ['D3.js', 'Next.js', 'Open Data APIs'],
     image: project3
   },
   {
-    title: 'Brand Identity System',
-    category: 'Branding',
-    description: 'Complete brand identity including logo, guidelines, and marketing collateral design.',
-    tags: ['Figma', 'Illustrator', 'Design Systems'],
+    title: 'Participatory Budgeting Tool',
+    category: 'Democracy Platform',
+    description: 'Digital platform enabling residents to propose and vote on community budget priorities democratically.',
+    tags: ['Vue.js', 'Python', 'PostgreSQL'],
     image: project4
   }
 ];
@@ -45,7 +45,7 @@ export default function PortfolioSection() {
             Featured Work
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-            A selection of recent projects that showcase my expertise
+            Projects supporting civic participation and community engagement
           </p>
         </div>
 

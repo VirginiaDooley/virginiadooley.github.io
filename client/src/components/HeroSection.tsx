@@ -29,14 +29,14 @@ export default function HeroSection() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6" data-testid="text-hero-title">
-          Creative Developer
+          Civic Tech Developer
           <br />
-          & Designer
+          & Community Builder
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-description">
-          Crafting beautiful digital experiences through code and design. 
-          Specializing in modern web applications and user-centered solutions.
+          I love thinking about big problems and how code might facilitate better 
+          understanding and offer solutions for communities.
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-4">

@@ -20,8 +20,8 @@ export default function ContactSection() {
         </h2>
         
         <p className="text-muted-foreground text-base md:text-lg mb-12 leading-relaxed" data-testid="text-contact-description">
-          Have a project in mind or just want to chat? I'd love to hear from you. 
-          Drop me a message and let's create something amazing together.
+          Working on civic tech or community engagement tools? I'd love to hear about your project. 
+          Open to new opportunities and available for meaningful work that strengthens communities.
         </p>
 
         <Button

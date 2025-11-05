@@ -1,20 +1,20 @@
-import { Code2, Palette, Smartphone } from 'lucide-react';
+import { Globe, Users, BarChart3 } from 'lucide-react';
 
 const services = [
   {
-    icon: Code2,
-    title: 'Web Development',
-    description: 'Building responsive, performant web applications with modern frameworks and best practices.'
+    icon: Globe,
+    title: 'Civic Engagement Tools',
+    description: 'Building platforms and tools that help engage people in their communities and find common ground.'
   },
   {
-    icon: Palette,
-    title: 'UI/UX Design',
-    description: 'Creating intuitive and beautiful user interfaces focused on exceptional user experiences.'
+    icon: BarChart3,
+    title: 'Data Visualization',
+    description: 'Creating clear, accessible visualizations that help communities understand complex civic data and issues.'
   },
   {
-    icon: Smartphone,
-    title: 'Mobile Apps',
-    description: 'Developing cross-platform mobile applications that work seamlessly across all devices.'
+    icon: Users,
+    title: 'Community Platforms',
+    description: 'Developing digital spaces that facilitate meaningful dialogue and collaborative problem-solving.'
   }
 ];
 
@@ -27,7 +27,7 @@ export default function ServicesSection() {
             What I Do
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-            Specialized services to bring your digital vision to life
+            Building civic participation tools and helping communities maintain focus in a chaotic world
           </p>
         </div>
 

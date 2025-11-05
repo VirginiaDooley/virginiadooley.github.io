@@ -2,8 +2,8 @@ import { Badge } from '@/components/ui/badge';
 import aboutImage from '@assets/generated_images/Professional_developer_headshot_portrait_46a8b846.png';
 
 const skills = [
-  'React', 'TypeScript', 'Node.js', 'Next.js', 'Tailwind CSS',
-  'Figma', 'UI/UX Design', 'PostgreSQL', 'Git', 'AWS'
+  'React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL',
+  'Data Visualization', 'D3.js', 'Open Data', 'Civic Tech', 'Community Building'
 ];
 
 const stats = [
@@ -33,18 +33,19 @@ export default function AboutSection() {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
               <p data-testid="text-about-paragraph-1">
-                I'm a passionate freelance developer and designer with a focus on creating 
-                exceptional digital experiences. With over 5 years of experience, I've helped 
-                businesses and individuals bring their ideas to life.
+                I love thinking about big problems and how code might facilitate better understanding 
+                and offer solutions. My work focuses on building tools that help communities engage 
+                meaningfully with civic issues and democratic processes.
               </p>
               <p data-testid="text-about-paragraph-2">
-                My approach combines technical expertise with creative problem-solving, 
-                ensuring every project is both beautiful and functional. I believe in clean 
-                code, intuitive design, and delivering solutions that exceed expectations.
+                I enjoy supporting initiatives that help engage people in their communities and find 
+                common ground. At the moment, I'm focused on building civic participation tools and 
+                thinking about how we can maintain our focus in a chaotic world.
               </p>
               <p data-testid="text-about-paragraph-3">
-                When I'm not coding, you'll find me exploring new design trends, contributing 
-                to open-source projects, or sharing knowledge with the developer community.
+                I'm open to new opportunities and available for project work. If you're working on 
+                something that makes communities stronger or democracy more accessible, I'd love to 
+                hear from you.
               </p>
             </div>
 
