@@ -3,7 +3,7 @@ import aboutImage from '@assets/generated_images/Professional_developer_headshot
 
 const skills = [
   'React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL',
-  'Data Visualization', 'D3.js', 'Open Data', 'Public Interest Tech', 'Community Building'
+  'Data Visualization', 'Open Data', 'Civic Tech', 'Fundraising', 'CRM', 'Mobile Apps'
 ];
 
 const stats = [
