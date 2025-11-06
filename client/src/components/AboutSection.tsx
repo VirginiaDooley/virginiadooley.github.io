@@ -54,7 +54,7 @@ export default function AboutSection() {
               </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-6">
+            {/* <div className="grid grid-cols-3 gap-6">
               {stats.map((stat, index) => (
                 <div key={index} data-testid={`stat-${index}`}>
                   <div className="text-2xl md:text-3xl font-bold mb-1" data-testid={`text-stat-value-${index}`}>
@@ -65,7 +65,7 @@ export default function AboutSection() {
                   </div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
