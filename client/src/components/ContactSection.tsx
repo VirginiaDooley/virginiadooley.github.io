@@ -9,7 +9,7 @@ const socialLinks = [
 
 export default function ContactSection() {
   const handleEmailClick = () => {
-    window.location.href = 'mailto:hello@example.com';
+    window.location.href = 'mailto:vcdooley@gmail.com';
   };
 
   return (
@@ -31,7 +31,7 @@ export default function ContactSection() {
           data-testid="button-email"
         >
           <Mail className="w-4 h-4" />
-          hello@example.com
+          vcdooley@gmail.com
         </Button>
 
         <div className="flex items-center justify-center gap-4">
