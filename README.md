@@ -60,6 +60,7 @@ Edit the following components to customize your portfolio:
 - `client/src/components/PortfolioSection.tsx` - Featured projects
 - `client/src/components/AboutSection.tsx` - About you and your skills
 - `client/src/components/ContactSection.tsx` - Contact information
+- `client/src/pages/CV.tsx` - Full CV/resume page
 
 ### Design
 

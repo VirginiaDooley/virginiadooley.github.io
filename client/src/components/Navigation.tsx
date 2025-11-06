@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'wouter';
 import { Button } from '@/components/ui/button';
 import { Moon, Sun } from 'lucide-react';
 
@@ -75,6 +76,15 @@ export default function Navigation() {
             >
               About
             </Button>
+            <Link href="/cv">
+              <Button
+                variant="ghost"
+                size="sm"
+                data-testid="link-cv"
+              >
+                CV
+              </Button>
+            </Link>
             <Button
               variant="ghost"
               size="sm"
