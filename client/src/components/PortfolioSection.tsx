@@ -8,7 +8,7 @@ import project4 from '@assets/generated_images/Brand_identity_design_showcase_03
 const projects = [
   {
     title: 'Community Participation Platform',
-    category: 'Civic Tech',
+    category: 'Public Interest',
     description: 'A comprehensive platform enabling local communities to engage with civic issues and track municipal decisions.',
     tags: ['React', 'TypeScript', 'PostgreSQL'],
     image: project1
