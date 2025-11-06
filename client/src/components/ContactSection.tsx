@@ -1,10 +1,9 @@
 import { Button } from '@/components/ui/button';
-import { Mail, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Github, Linkedin } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Github, label: 'GitHub', href: '#' },
-  { icon: Linkedin, label: 'LinkedIn', href: '#' },
-  { icon: Twitter, label: 'Twitter', href: '#' }
+  { icon: Github, label: 'GitHub', href: 'https://github.com/VirginiaDooley#' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/virginia-dooley/#' }
 ];
 
 export default function ContactSection() {

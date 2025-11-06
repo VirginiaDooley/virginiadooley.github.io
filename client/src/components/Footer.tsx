@@ -1,10 +1,9 @@
-import { Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const socialLinks = [
-  { icon: Github, label: 'GitHub', href: '#' },
-  { icon: Linkedin, label: 'LinkedIn', href: '#' },
-  { icon: Twitter, label: 'Twitter', href: '#' }
+  { icon: Github, label: 'GitHub', href: 'https://github.com/VirginiaDooley' },
+  { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/virginia-dooley/' },
 ];
 
 export default function Footer() {
@@ -20,7 +19,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-sm text-muted-foreground" data-testid="text-copyright">
-            © 2024 Portfolio. Built with React & Tailwind CSS
+            © 2025 Virginia Dooley
           </div>
 
           <div className="flex items-center gap-2">

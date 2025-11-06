@@ -91,7 +91,7 @@ Drawing inspiration from modern minimal portfolios (Notion's simplicity, Apple's
 - Section heading
 - Brief call-to-action text
 - Email button (primary, large)
-- Social links row: GitHub, LinkedIn, Twitter (icons only, gap-6)
+- Social links row: GitHub, LinkedIn (icons only, gap-6)
 - Alternative: Simple contact form (Name, Email, Message fields + Submit)
 
 ### Footer
