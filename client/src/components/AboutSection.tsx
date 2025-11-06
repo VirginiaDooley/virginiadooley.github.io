@@ -33,19 +33,13 @@ export default function AboutSection() {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
               <p data-testid="text-about-paragraph-1">
-                I love thinking about big problems and how code might facilitate better understanding 
-                and offer solutions. My work focuses on building tools that help communities engage 
-                meaningfully with civic issues, support small businesses in their growth, and amplify women-led initiatives.
+                I'm passionate about using technology to tackle big problems and turn ideas into reality. My work focuses on building open-source tools and launching MVPs that help communities engage more meaningfully, support small business growth, and amplify women-led initiatives.
               </p>
               <p data-testid="text-about-paragraph-2">
-                I enjoy supporting initiatives that help engage people in their communities and find 
-                common ground. I'm particularly passionate about creating technology solutions that empower 
-                women entrepreneurs and help small businesses thrive in their communities.
+                I love creating automation and digital solutions that reduce heavy workloads, freeing people to focus on what matters most. From launching websites to building community-driven platforms, I enjoy growing ideas into impactful, scalable projects.
               </p>
               <p data-testid="text-about-paragraph-3">
-                I'm open to new opportunities and available for project work. If you're working on 
-                something that makes communities stronger, supports small business growth, or advances 
-                women-led initiatives, I'd love to hear from you.
+                I'm open to new opportunities and collaborations — especially those that strengthen communities, empower women entrepreneurs, or make it easier for small businesses to thrive. If you're working on something that moves those goals forward, let's connect.
               </p>
             </div>
 
