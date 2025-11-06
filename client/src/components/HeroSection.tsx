@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ChevronDown } from 'lucide-react';
-import heroImage from '@assets/generated_images/Professional_developer_headshot_portrait_46a8b846.png';
+import heroImage from '@assets/generated_images/Professional_developer_headshot_portrait_46a8b846.png'
+import heroImageThumbnail from '@assets/generated_images/vcd_profile.png'
 
 export default function HeroSection() {
   const scrollToSection = (id: string) => {
@@ -21,7 +22,7 @@ export default function HeroSection() {
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-8">
           <img
-            src={heroImage}
+            src={heroImageThumbnail}
             alt="Professional headshot"
             className="w-24 h-24 md:w-32 md:h-32 rounded-full mx-auto object-cover border-2 border-border"
             data-testid="img-hero-avatar"
