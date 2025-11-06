@@ -40,7 +40,7 @@ export default function HeroSection() {
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-4">
-          <Button
+          {/* <Button
             size="lg"
             onClick={() => scrollToSection('work')}
             data-testid="button-view-work"
@@ -48,7 +48,7 @@ export default function HeroSection() {
           >
             View My Work
             <ArrowRight className="w-4 h-4" />
-          </Button>
+          </Button> */}
           <Button
             size="lg"
             variant="outline"
