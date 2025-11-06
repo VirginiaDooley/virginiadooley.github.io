@@ -3,7 +3,7 @@ import { Globe, Users, BarChart3 } from 'lucide-react';
 const services = [
   {
     icon: Globe,
-    title: 'Civic Engagement Tools',
+    title: 'Community Platforms',
     description: 'Building platforms and tools that help engage people in their communities and find common ground.'
   },
   {
@@ -13,8 +13,8 @@ const services = [
   },
   {
     icon: Users,
-    title: 'Community Platforms',
-    description: 'Developing digital spaces that facilitate meaningful dialogue, support women-led initiatives, and enable collaborative problem-solving.'
+    title: 'Small Business Solutions',
+    description: 'Empowering women-led initiatives and small businesses with tailored advice and digital solutions to help them grow and thrive.'
   }
 ];
 
