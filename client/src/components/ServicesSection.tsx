@@ -27,7 +27,7 @@ export default function ServicesSection() {
             What I Do
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-            Building civic participation tools and helping communities maintain focus in a chaotic world
+            I build tools, MVPs, and automations that turn ideas into practical solutions for communities, small businesses, and women-led initiatives.
           </p>
         </div>
 

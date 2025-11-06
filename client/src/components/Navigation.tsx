@@ -56,7 +56,7 @@ export default function Navigation() {
             className="text-lg font-semibold tracking-tight hover-elevate active-elevate-2 rounded-md px-3 py-1.5"
             data-testid="link-logo"
           >
-            Portfolio
+            Virginia Dooley
           </button>
 
           <div className="flex items-center gap-1">
