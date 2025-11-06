@@ -14,7 +14,7 @@ const services = [
   {
     icon: Users,
     title: 'Small Business Solutions',
-    description: 'Empowering women-led initiatives and small businesses with tailored advice and digital solutions to help them grow and thrive.'
+    description: 'Empowering small businesses with tailored advice and digital solutions to help them grow and thrive.'
   }
 ];
 
@@ -27,7 +27,7 @@ export default function ServicesSection() {
             What I Do
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-            I build tools, MVPs, and automations that turn ideas into practical solutions for communities, small businesses, and women-led initiatives.
+            I build digital tools and apps that empower changemakers — from artists and women entrepreneurs to nonprofits and social-impact ventures.
           </p>
         </div>
 
