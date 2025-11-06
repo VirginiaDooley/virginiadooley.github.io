@@ -14,7 +14,7 @@ const stats = [
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 md:py-32 px-6 md:px-8">
+    <section id="about" className="py-10 md:py-16 px-4 md:px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
           <div>

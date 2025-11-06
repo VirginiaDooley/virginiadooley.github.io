@@ -15,7 +15,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="py-12 px-6 md:px-8 border-t">
+    <footer className="py-6 md:py-8 px-4 md:px-6 text-center text-muted-foreground text-sm">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-sm text-muted-foreground" data-testid="text-copyright">
