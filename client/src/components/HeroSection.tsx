@@ -34,7 +34,7 @@ export default function HeroSection() {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-description">
-          I love bringing ideas to life — building open-source tools, MVPs, and automations that make work lighter, communities stronger, and innovation more accessible.
+          For me, technology is most powerful when it brings people together. I create digital solutions that make collaboration easier, work simpler, and ideas more reachable.
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-4">
