@@ -33,13 +33,13 @@ export default function AboutSection() {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
               <p data-testid="text-about-paragraph-1">
-                I'm passionate about using technology to tackle big problems and turn ideas into reality. My work focuses on building open-source tools and launching MVPs that help communities engage more meaningfully, support small business growth, and amplify women-led initiatives.
+                I'm passionate about using technology to solve real-world challenges and bring ideas to life. With a background in programme management, fundraising, and business operations, I’ve seen firsthand how the right tools and systems can empower people and strengthen communities.
               </p>
               <p data-testid="text-about-paragraph-2">
-                I love creating automation and digital solutions that reduce heavy workloads, freeing people to focus on what matters most. From launching websites to building community-driven platforms, I enjoy growing ideas into impactful, scalable projects.
+                These days, I focus on building open-source tools and MVPs that help communities connect, support small business growth, and amplify women-led initiatives. I love creating automations and digital solutions that lighten workloads and let people focus on what truly matters.
               </p>
               <p data-testid="text-about-paragraph-3">
-                I'm open to new opportunities and collaborations — especially those that strengthen communities, empower women entrepreneurs, or make it easier for small businesses to thrive. If you're working on something that moves those goals forward, let's connect.
+                Whether it's launching websites, streamlining operations, or building community-driven platforms, I enjoy growing ideas into projects that make a lasting impact. I'm always open to collaborations — especially ones that support communities, empower women entrepreneurs, or help small businesses thrive. If that's something you're working on, let's connect!
               </p>
             </div>
 
