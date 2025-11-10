@@ -60,14 +60,14 @@ export default function Navigation() {
           </button>
 
           <div className="flex items-center gap-1">
-            <Button
+            {/* <Button
               variant="ghost"
               size="sm"
               onClick={() => scrollToSection('work')}
               data-testid="link-work"
             >
               Work
-            </Button>
+            </Button> */}
             <Button
               variant="ghost"
               size="sm"
