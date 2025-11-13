@@ -1,5 +1,6 @@
 import { Badge } from '@/components/ui/badge';
 import { ArrowUpRight } from 'lucide-react';
+import { Link } from 'wouter';
 import project1 from '@assets/generated_images/Web_dashboard_project_mockup_1a6249de.png';
 import project2 from '@assets/generated_images/Mobile_ecommerce_app_mockup_d29457e7.png';
 import project3 from '@assets/generated_images/Creative_agency_website_mockup_ebc387d4.png';
@@ -7,33 +8,35 @@ import project4 from '@assets/generated_images/Brand_identity_design_showcase_03
 
 const projects = [
   {
-    title: 'Community Participation Platform',
-    category: 'Public Interest',
-    description: 'A comprehensive platform enabling local communities to engage with civic issues and track municipal decisions.',
-    tags: ['React', 'TypeScript', 'PostgreSQL'],
-    image: project1
+    title: 'Voter Information App',
+    category: 'Civic Tech',
+    description: 'A mobile app providing personalized voter information, polling locations, and election reminders to increase voter turnout.',
+    tags: ['React', 'Expo', 'ios/Android'],
+    image: project1,
+  slug: 'voter-information-app',
+  detailPath: '/portfolio/voter-info'
   },
-  {
-    title: 'Women-Led Business Network',
-    category: 'Community Platform',
-    description: 'Platform connecting women entrepreneurs, facilitating mentorship, resource sharing, and collaborative growth opportunities.',
-    tags: ['React Native', 'Node.js', 'GraphQL'],
-    image: project2
-  },
-  {
-    title: 'Open Data Visualization Hub',
-    category: 'Data Platform',
-    description: 'Interactive visualizations making complex civic data accessible and understandable for all community members.',
-    tags: ['D3.js', 'Next.js', 'Open Data APIs'],
-    image: project3
-  },
-  {
-    title: 'Participatory Budgeting Tool',
-    category: 'Democracy Platform',
-    description: 'Digital platform enabling residents to propose and vote on community budget priorities democratically.',
-    tags: ['Vue.js', 'Python', 'PostgreSQL'],
-    image: project4
-  }
+  // {
+  //   title: 'Women-Led Business Network',
+  //   category: 'Community Platform',
+  //   description: 'Platform connecting women entrepreneurs, facilitating mentorship, resource sharing, and collaborative growth opportunities.',
+  //   tags: ['React Native', 'Node.js', 'GraphQL'],
+  //   image: project2
+  // },
+  // {
+  //   title: 'Open Data Visualization Hub',
+  //   category: 'Data Platform',
+  //   description: 'Interactive visualizations making complex civic data accessible and understandable for all community members.',
+  //   tags: ['D3.js', 'Next.js', 'Open Data APIs'],
+  //   image: project3
+  // },
+  // {
+  //   title: 'Participatory Budgeting Tool',
+  //   category: 'Democracy Platform',
+  //   description: 'Digital platform enabling residents to propose and vote on community budget priorities democratically.',
+  //   tags: ['Vue.js', 'Python', 'PostgreSQL'],
+  //   image: project4
+  // }
 ];
 
 export default function PortfolioSection() {
@@ -67,15 +70,13 @@ export default function PortfolioSection() {
               <div className="p-6">
                 <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                   <Badge variant="secondary" data-testid={`badge-category-${index}`}>
-                    {project.category}
+                  {project.category}
                   </Badge>
-                  <button 
-                    className="hover-elevate active-elevate-2 p-1.5 rounded-md"
-                    onClick={() => console.log(`View project: ${project.title}`)}
-                    data-testid={`button-view-project-${index}`}
+                  <Link href={project.detailPath} data-testid={`icon-internal-link-${index}`}
+                    className="inline-flex items-center text-blue-600 hover:underline"
                   >
-                    <ArrowUpRight className="w-4 h-4" />
-                  </button>
+                    <ArrowUpRight className="w-4 h-4 cursor-pointer" />
+                  </Link>
                 </div>
                 <h3 className="text-xl md:text-2xl font-medium mb-2" data-testid={`text-project-title-${index}`}>
                   {project.title}

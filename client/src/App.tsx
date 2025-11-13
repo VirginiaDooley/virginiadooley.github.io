@@ -7,6 +7,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import Home from "@/pages/Home";
 import CV from "@/pages/CV";
 import NotFound from "@/pages/not-found";
+import VoterInfoAppDetail from "@/pages/VoterInfoAppDetail";
 
 // Hash-based location hook for GitHub Pages compatibility
 const hashLocation = (): [string, (to: string) => void] => {
@@ -29,9 +30,10 @@ function Router() {
   return (
     <WouterRouter hook={hashLocation}>
       <Switch>
-        <Route path="/" component={Home} />
-        <Route path="/cv" component={CV} />
-        <Route component={NotFound} />
+  <Route path="/" component={Home} />
+  <Route path="/cv" component={CV} />
+  <Route path="/portfolio/voter-info" component={VoterInfoAppDetail} />
+  <Route component={NotFound} />
       </Switch>
     </WouterRouter>
   );
