@@ -1,5 +1,11 @@
 import React from "react";
 
+/**
+ * VoterInfoAppDetail displays details about the Voter Information App,
+ * including features, support links, and privacy policy.
+ * 
+ * This component does not accept any props.
+ */
 const VoterInfoAppDetail: React.FC = () => {
   return (
     <div className="max-w-3xl mx-auto py-12 px-4">
@@ -24,11 +30,15 @@ const VoterInfoAppDetail: React.FC = () => {
     </a>
     <a
       href="mailto:vcdooley@gmail.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+      className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mr-4"
     >
       Get support
+    </a>
+    <a
+      href="/privacy.html"
+      className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mr-4"
+    >
+      Privacy Policy
     </a>
     </div>
   );
