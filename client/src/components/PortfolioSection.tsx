@@ -1,42 +1,39 @@
 import { Badge } from '@/components/ui/badge';
 import { ArrowUpRight } from 'lucide-react';
 import { Link } from 'wouter';
-import project1 from '@assets/generated_images/Web_dashboard_project_mockup_1a6249de.png';
-import project2 from '@assets/generated_images/Mobile_ecommerce_app_mockup_d29457e7.png';
-import project3 from '@assets/generated_images/Creative_agency_website_mockup_ebc387d4.png';
+import project1 from '@assets/generated_images/uk-voter-app.png';
+import project2 from '@assets/generated_images/civicdatatech-screenshot.png';
+import project3 from '@assets/generated_images/civicpatch-screenshot.png';
 import project4 from '@assets/generated_images/Brand_identity_design_showcase_036d156f.png';
 
 const projects = [
   {
     title: 'Voter Information App',
-    category: 'Civic Tech',
-    description: 'A mobile app providing personalized voter information, polling locations, and election reminders to increase voter turnout.',
+    category: 'Mobile App',
+    description: 'A mobile app providing personalized U.K. voter information, polling locations, and election reminders to increase voter turnout.',
     tags: ['React', 'Expo', 'ios/Android'],
     image: project1,
-  slug: 'voter-information-app',
-  detailPath: '/portfolio/voter-info'
+    slug: 'voter-information-app',
+    detailPath: '/portfolio/voter-info'
   },
-  // {
-  //   title: 'Women-Led Business Network',
-  //   category: 'Community Platform',
-  //   description: 'Platform connecting women entrepreneurs, facilitating mentorship, resource sharing, and collaborative growth opportunities.',
-  //   tags: ['React Native', 'Node.js', 'GraphQL'],
-  //   image: project2
-  // },
-  // {
-  //   title: 'Open Data Visualization Hub',
-  //   category: 'Data Platform',
-  //   description: 'Interactive visualizations making complex civic data accessible and understandable for all community members.',
-  //   tags: ['D3.js', 'Next.js', 'Open Data APIs'],
-  //   image: project3
-  // },
-  // {
-  //   title: 'Participatory Budgeting Tool',
-  //   category: 'Democracy Platform',
-  //   description: 'Digital platform enabling residents to propose and vote on community budget priorities democratically.',
-  //   tags: ['Vue.js', 'Python', 'PostgreSQL'],
-  //   image: project4
-  // }
+  {
+    title: 'Local Representative Data',
+    category: 'Open Data APIs',
+    description: 'Collaborative intiative to develop a pipeline of local U.S. representatives.',
+    tags: ['Ruby', 'Python', 'Tailwind'],
+    image: project2, 
+    slug: 'civic0-data-tech',
+    detailPath: '/portfolio/civic-data-tech'
+  },
+  {
+    title: 'CivicPatch',
+    category: 'Data Visualization',
+    description: 'Front end address search and interactive visualizations making civic data more accessible and understandable.',
+    tags: ['D3.js', 'Next.js', 'Rails'],
+    image: project3, 
+    slug: 'civic-patch',
+    detailPath: '/portfolio/civic-patch'
+  },
 ];
 
 export default function PortfolioSection() {

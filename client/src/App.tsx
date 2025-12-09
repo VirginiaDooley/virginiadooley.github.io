@@ -8,6 +8,8 @@ import Home from "@/pages/Home";
 import CV from "@/pages/CV";
 import NotFound from "@/pages/not-found";
 import VoterInfoAppDetail from "@/pages/VoterInfoAppDetail";
+import CivicDataTechDetail from "@/pages/CivicDataTechDetail";
+import CivicPatchDetail from "@/pages/CivicPatchDetail";
 
 // Hash-based location hook for GitHub Pages compatibility
 const hashLocation = (): [string, (to: string) => void] => {
@@ -33,6 +35,8 @@ function Router() {
   <Route path="/" component={Home} />
   <Route path="/cv" component={CV} />
   <Route path="/portfolio/voter-info" component={VoterInfoAppDetail} />
+  <Route path="/portfolio/civic-data-tech" component={CivicDataTechDetail} />
+  <Route path="/portfolio/civic-patch" component={CivicPatchDetail} />
   <Route component={NotFound} />
       </Switch>
     </WouterRouter>
