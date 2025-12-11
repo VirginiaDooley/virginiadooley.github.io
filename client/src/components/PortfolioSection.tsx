@@ -19,7 +19,7 @@ const projects = [
   {
     title: 'Local Representative Data',
     category: 'Open Data APIs',
-    description: 'Collaborative intiative to develop a pipeline of local U.S. representatives.',
+    description: 'Collaborative intiative to develop a data pipeline of local U.S. representatives.',
     tags: ['Ruby', 'Python', 'Tailwind'],
     image: project2, 
     slug: 'civic0-data-tech',
