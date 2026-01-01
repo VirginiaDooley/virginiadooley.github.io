@@ -63,6 +63,17 @@ export default function CV() {
           <div className="space-y-8">
             <div>
               <p className="font-medium mb-2">
+                <p>Freelance Software Developer | Nov 2024 - Present</p>
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+                <li>Helped Talli Baby regain control of their mobile app development after outsourcing work abroad.</li>
+				        <li>Collaborated on the development of a new product to provide permanent and free access to U.S. representative data.</li>
+				        <li>Developed a mobile app for U.K. voters to access personalized voting information.</li>
+              </ul>
+            </div>
+            
+            <div>
+              <p className="font-medium mb-2">
                 Full Stack Developer | <a href="https://democracyclub.org.uk/" className="text-foreground hover:underline" target="_blank" rel="noopener noreferrer">Democracy Club</a> | Jan 2021-October 2024
               </p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
@@ -71,7 +82,7 @@ export default function CV() {
                 <li>Integrated AWS Textract to automate data extraction and optimize the processing and aggregation of official documents, significantly improving efficiency.</li>
                 <li>Collaborated on organizational strategy and contributed to enhancing digital service delivery, aligning technical solutions with broader business goals.</li>
               </ul>
-            </div>
+            </div> 
 
             <div>
               <p className="font-medium mb-2">

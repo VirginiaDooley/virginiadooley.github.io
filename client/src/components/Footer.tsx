@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-sm text-muted-foreground" data-testid="text-copyright">
-            © 2025 Virginia Dooley
+            © 2026 Virginia Dooley
           </div>
 
           <div className="flex items-center gap-2">
