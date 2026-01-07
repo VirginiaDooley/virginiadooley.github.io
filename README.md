@@ -31,7 +31,7 @@ This portfolio is fully configured for GitHub Pages:
 
 ```bash
 # Build static site
-./build-static.sh
+
 
 # Commit and push
 git add .

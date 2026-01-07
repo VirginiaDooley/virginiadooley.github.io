@@ -4,7 +4,7 @@ import { Link } from 'wouter';
 import project1 from '@assets/generated_images/uk-voter-app.png';
 import project2 from '@assets/generated_images/civicdatatech-screenshot.png';
 import project3 from '@assets/generated_images/civicpatch-screenshot.png';
-import project4 from '@assets/generated_images/Brand_identity_design_showcase_036d156f.png';
+import project4 from '@assets/generated_images/civicaction.png';
 
 const projects = [
   {
@@ -33,6 +33,15 @@ const projects = [
     image: project3, 
     slug: 'civic-patch',
     detailPath: '/portfolio/civic-patch'
+  },
+  {
+    title: 'Civic Action',
+    category: 'Mobile App',
+    description: 'Coming soon: A mobile app encouraging individuals to strengthen civic engagement.',
+    tags: ['React', 'Expo', 'ios/Android'],
+    image: project4, 
+    // slug: 'civic-action',
+    detailPath: '/portfolio/civic-action-tool'
   },
 ];
 
