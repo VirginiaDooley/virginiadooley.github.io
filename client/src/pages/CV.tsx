@@ -65,11 +65,11 @@ export default function CV() {
               <p className="font-medium mb-2">
                 <p>Freelance Software Developer | Nov 2024 - Present</p>
               </p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                <li>Helped Talli Baby regain control of their mobile app development after outsourcing work abroad.</li>
-				        <li>Collaborated on the development of a new product to provide permanent and free access to U.S. representative data.</li>
-				        <li>Developed a mobile app for U.K. voters to access personalized voting information.</li>
-              </ul>
+                <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
+                  <li>Collaborated on Civic Data Tech, providing permanent and free access to U.S. local representative data through full-stack development with AI-enhanced data processing.</li>
+                  <li>Developed a mobile app for U.K. voters to access personalized voting information for Democracy Club, demonstrating expertise in cross-platform mobile development and user-centered design for civic tech.</li>
+                  <li>Helped Talli Baby regain control of their mobile app development after outsourcing work abroad, taking over iOS/Android development, deployment infrastructure, and operational continuity—leveraging AI tools to accelerate development velocity while maintaining code quality.</li>
+                </ul>
             </div>
             
             <div>
