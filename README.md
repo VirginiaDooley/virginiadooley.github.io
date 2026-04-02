@@ -1,6 +1,15 @@
-# Portfolio - Tech for Public Interest
+# Virginia Dooley - Portfolio
 
-A clean, minimal freelance portfolio template emphasizing work in public interest technology, community engagement, small business support, and women-led initiatives.
+A personal portfolio showcasing work in civic technology, community engagement, and public interest projects.
+
+**Live site**: [virginiadooley.github.io](https://virginiadooley.github.io)
+
+## Featured Projects
+
+- **[Voter Information App](https://virginiadooley.github.io/#/portfolio/voter-info)** - Mobile app providing UK voter information, polling locations, and election reminders
+- **[Local Representative Data](https://virginiadooley.github.io/#/portfolio/civic-data-tech)** - Collaborative initiative to develop a data pipeline of local U.S. representatives
+- **[CivicPatch](https://virginiadooley.github.io/#/portfolio/civic-patch)** - Front end address search and interactive visualizations for civic data
+- **[VoiceAbroad](https://virginiadooley.github.io/#/portfolio/civic-action-tool)** - Web app encouraging Americans abroad to sustain civic engagement
 
 ## Features
 
@@ -62,6 +71,16 @@ Edit the following components to customize your portfolio:
 - `client/src/components/ContactSection.tsx` - Contact information
 - `client/src/pages/CV.tsx` - Full CV/resume page
 
+### Portfolio Detail Pages
+
+Individual project pages are located in `client/src/pages/`:
+- `VoterInfoAppDetail.tsx` - Voter Information App details
+- `CivicDataTechDetail.tsx` - Local Representative Data details
+- `CivicPatchDetail.tsx` - CivicPatch details
+- `CivicActionToolDetail.tsx` - VoiceAbroad details
+
+Routes are configured in `client/src/App.tsx` using hash-based routing for GitHub Pages compatibility.
+
 ### Design
 
 The portfolio uses a minimal design system defined in `design_guidelines.md`. Colors and styles can be customized in:
@@ -105,4 +124,5 @@ MIT
 
 ---
 
-**Note**: This is a static portfolio template. No backend server or database is required for deployment.
+**Author**: Virginia Dooley  
+**Contact**: [vcdooley@gmail.com](mailto:vcdooley@gmail.com)
