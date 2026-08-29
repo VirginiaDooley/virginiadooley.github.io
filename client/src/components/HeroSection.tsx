@@ -30,11 +30,11 @@ export default function HeroSection() {
         </div>
         
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6" data-testid="text-hero-title">
-          Building What Connects Us
+          Full-Stack Civic Tech Builder
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed" data-testid="text-hero-description">
-          For me, technology is most powerful when it brings people together. I create digital solutions that make collaboration easier, work simpler, and ideas more reachable.
+          I build civic technology tools and scale them. With a background in international development and full-stack engineering experience, I can take a civic tech idea from concept through governance, fundraising, code, and community.
         </p>
         
         <div className="flex flex-wrap items-center justify-center gap-4">

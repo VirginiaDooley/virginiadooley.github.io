@@ -35,7 +35,9 @@ const VoterInfoAppDetail: React.FC = () => {
       Get support
     </a>
     <a
-      href="/privacy.html"
+      href="https://virginiadooley.github.io/privacy.html"
+      target="_blank"
+      rel="noopener noreferrer"
       className="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition mr-4"
     >
       Privacy Policy

@@ -1,20 +1,20 @@
-import { Globe, Users, BarChart3 } from 'lucide-react';
+import { Code2, Users, Target } from 'lucide-react';
 
 const services = [
   {
-    icon: Globe,
-    title: 'Community Platforms',
-    description: 'Building platforms and tools that help engage people in their communities and find common ground.'
+    icon: Code2,
+    title: 'Full-Stack Development',
+    description: 'Build civic tech solutions from scratch. React frontends, Python/Rails backends, data pipelines. Whatever your idea needs.'
   },
   {
-    icon: BarChart3,
-    title: 'Data Visualization',
-    description: 'Creating clear, accessible visualizations that help communities and small businesses understand complex data and make informed decisions.'
+    icon: Target,
+    title: 'Launch and Scale',
+    description: 'Help get civic tech from concept to working system. I work on product, fundraising, governance, and community.'
   },
   {
     icon: Users,
-    title: 'Small Business Solutions',
-    description: 'Empowering small businesses with tailored advice and digital solutions to help them grow and thrive.'
+    title: 'Open Data Infrastructure',
+    description: 'Create systems for civic participation. APIs for representative data, voter tools, infrastructure for democracy.'
   }
 ];
 
@@ -27,7 +27,7 @@ export default function ServicesSection() {
             What I Do
           </h2>
           <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto">
-            I build digital tools and apps that empower changemakers — from artists and women entrepreneurs to nonprofits and social-impact ventures.
+            I build civic tech. From coding the platform to fundraising and governance. I help take ideas for democracy and community and make them real.
           </p>
         </div>
 

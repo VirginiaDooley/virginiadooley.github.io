@@ -2,14 +2,14 @@ import { Badge } from '@/components/ui/badge';
 import aboutImage from '@assets/generated_images/Professional_developer_headshot_portrait_46a8b846.png';
 
 const skills = [
-  'React', 'TypeScript', 'Node.js', 'Python', 'PostgreSQL',
-  'Data Visualization', 'Open Data', 'Civic Tech', 'Fundraising', 'CRM', 'Mobile Apps'
+  'Full-Stack Development', 'Python', 'React', 'JavaScript', 'Ruby on Rails',
+  'Program Management', 'Fundraising', 'Community Engagement', 'Governance', 'Team Building', 'Civic Tech', 'Open Data'
 ];
 
 const stats = [
-  { label: 'Years Experience', value: '5+' },
-  { label: 'Projects Completed', value: '50+' },
-  { label: 'Happy Clients', value: '30+' }
+  { label: 'Years Experience', value: '10+' },
+  { label: 'Organizations Led', value: '7+' },
+  { label: 'Teams Built', value: '15+' }
 ];
 
 export default function AboutSection() {
@@ -33,13 +33,13 @@ export default function AboutSection() {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed mb-8">
               <p data-testid="text-about-paragraph-1">
-                I'm passionate about using technology to solve real-world challenges and bring ideas to life. With a background in programme management, fundraising, and business operations, I’ve seen firsthand how the right tools and systems can empower people and strengthen communities.
+                I've spent the last 15 years in international development and nonprofit work, and the last 6 in software engineering. I work at the intersection of these two worlds. Right now, I'm focused on civic technology. Over the past 18 months, I've been building Civic Data Tech, which provides free, permanent access to U.S. local representative data. I've contributed code, led operations, managed fundraising, and helped structure governance for the project.
               </p>
               <p data-testid="text-about-paragraph-2">
-                These days, I focus on building open-source tools and MVPs that help communities connect, support small business growth, and amplify women-led initiatives. I love creating automations and digital solutions that lighten workloads and let people focus on what truly matters.
+                I'm a full-stack engineer with experience in Python, Ruby on Rails, React, and AWS. But I'm most useful when there's a bigger organizational context. I can architect a system and write the code, and I also care about whether the project is sustainable, how it's governed, who's involved, and how to fund it. I think civic tech works best when it's built openly and with the people who will use it.
               </p>
               <p data-testid="text-about-paragraph-3">
-                Whether it's launching websites, streamlining operations, or building community-driven platforms, I enjoy growing ideas into projects that make a lasting impact. I'm always open to collaborations — especially ones that support communities, empower women entrepreneurs, or help small businesses thrive. If that's something you're working on, let's connect!
+                I'm looking for civic tech work that matters. Voter information, representative data, tools for participation, infrastructure for democracy. If you're working on something in that space, I'd like to talk.
               </p>
             </div>
 
